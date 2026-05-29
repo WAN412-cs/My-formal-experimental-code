@@ -1,0 +1,704 @@
+Problem:    glpsol01ILShortestPNoDataCXH
+Rows:       238
+Columns:    206 (206 integer, 206 binary)
+Non-zeros:  1260
+Status:     INTEGER OPTIMAL
+Objective:  shPath = 22609 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 shPath                  22609                             
+     2 SinglePath1[20]
+                                   1             1             = 
+     3 SinglePath2[23]
+                                  -1            -1             = 
+     4 SinglePath3[0]
+                                   0            -0             = 
+     5 SinglePath3[1]
+                                   0            -0             = 
+     6 SinglePath3[2]
+                                   0            -0             = 
+     7 SinglePath3[3]
+                                   0            -0             = 
+     8 SinglePath3[4]
+                                   0            -0             = 
+     9 SinglePath3[5]
+                                   0            -0             = 
+    10 SinglePath3[6]
+                                   0            -0             = 
+    11 SinglePath3[7]
+                                   0            -0             = 
+    12 SinglePath3[8]
+                                   0            -0             = 
+    13 SinglePath3[9]
+                                   0            -0             = 
+    14 SinglePath3[10]
+                                   0            -0             = 
+    15 SinglePath3[11]
+                                   0            -0             = 
+    16 SinglePath3[12]
+                                   0            -0             = 
+    17 SinglePath3[13]
+                                   0            -0             = 
+    18 SinglePath3[14]
+                                   0            -0             = 
+    19 SinglePath3[15]
+                                   0            -0             = 
+    20 SinglePath3[16]
+                                   0            -0             = 
+    21 SinglePath3[17]
+                                   0            -0             = 
+    22 SinglePath3[18]
+                                   0            -0             = 
+    23 SinglePath3[19]
+                                   0            -0             = 
+    24 SinglePath3[21]
+                                   0            -0             = 
+    25 SinglePath3[22]
+                                   0            -0             = 
+    26 SinglePath3[24]
+                                   0            -0             = 
+    27 SinglePath3[25]
+                                   0            -0             = 
+    28 NoCirclePath[932]
+                                   1                           2 
+    29 NoCirclePath[1207]
+                                   0                           2 
+    30 NoCirclePath[2257]
+                                   0                           2 
+    31 NoCirclePath[2570]
+                                   0                           2 
+    32 SinglePath4                 6             3               
+    33 SinglePath5[0,10]
+                                   1                           1 
+    34 SinglePath5[10,0]
+                                   1                           1 
+    35 SinglePath5[0,15]
+                                   1                           1 
+    36 SinglePath5[15,0]
+                                   1                           1 
+    37 SinglePath5[0,20]
+                                   0                           1 
+    38 SinglePath5[20,0]
+                                   0                           1 
+    39 SinglePath5[0,21]
+                                   0                           1 
+    40 SinglePath5[21,0]
+                                   0                           1 
+    41 SinglePath5[0,22]
+                                   0                           1 
+    42 SinglePath5[22,0]
+                                   0                           1 
+    43 SinglePath5[0,24]
+                                   0                           1 
+    44 SinglePath5[24,0]
+                                   0                           1 
+    45 SinglePath5[0,25]
+                                   0                           1 
+    46 SinglePath5[25,0]
+                                   0                           1 
+    47 SinglePath5[1,5]
+                                   0                           1 
+    48 SinglePath5[5,1]
+                                   0                           1 
+    49 SinglePath5[1,7]
+                                   0                           1 
+    50 SinglePath5[7,1]
+                                   0                           1 
+    51 SinglePath5[1,9]
+                                   0                           1 
+    52 SinglePath5[9,1]
+                                   0                           1 
+    53 SinglePath5[1,10]
+                                   1                           1 
+    54 SinglePath5[10,1]
+                                   1                           1 
+    55 SinglePath5[1,15]
+                                   1                           1 
+    56 SinglePath5[15,1]
+                                   1                           1 
+    57 SinglePath5[1,16]
+                                   0                           1 
+    58 SinglePath5[16,1]
+                                   0                           1 
+    59 SinglePath5[1,21]
+                                   0                           1 
+    60 SinglePath5[21,1]
+                                   0                           1 
+    61 SinglePath5[1,22]
+                                   0                           1 
+    62 SinglePath5[22,1]
+                                   0                           1 
+    63 SinglePath5[1,25]
+                                   0                           1 
+    64 SinglePath5[25,1]
+                                   0                           1 
+    65 SinglePath5[2,3]
+                                   0                           1 
+    66 SinglePath5[3,2]
+                                   0                           1 
+    67 SinglePath5[2,11]
+                                   0                           1 
+    68 SinglePath5[11,2]
+                                   0                           1 
+    69 SinglePath5[2,12]
+                                   0                           1 
+    70 SinglePath5[12,2]
+                                   0                           1 
+    71 SinglePath5[2,13]
+                                   0                           1 
+    72 SinglePath5[13,2]
+                                   0                           1 
+    73 SinglePath5[2,21]
+                                   0                           1 
+    74 SinglePath5[21,2]
+                                   0                           1 
+    75 SinglePath5[2,22]
+                                   0                           1 
+    76 SinglePath5[22,2]
+                                   0                           1 
+    77 SinglePath5[2,24]
+                                   0                           1 
+    78 SinglePath5[24,2]
+                                   0                           1 
+    79 SinglePath5[2,25]
+                                   0                           1 
+    80 SinglePath5[25,2]
+                                   0                           1 
+    81 SinglePath5[3,20]
+                                   0                           1 
+    82 SinglePath5[20,3]
+                                   0                           1 
+    83 SinglePath5[3,21]
+                                   0                           1 
+    84 SinglePath5[21,3]
+                                   0                           1 
+    85 SinglePath5[3,22]
+                                   0                           1 
+    86 SinglePath5[22,3]
+                                   0                           1 
+    87 SinglePath5[3,24]
+                                   0                           1 
+    88 SinglePath5[24,3]
+                                   0                           1 
+    89 SinglePath5[3,25]
+                                   0                           1 
+    90 SinglePath5[25,3]
+                                   0                           1 
+    91 SinglePath5[4,10]
+                                   0                           1 
+    92 SinglePath5[10,4]
+                                   0                           1 
+    93 SinglePath5[4,20]
+                                   0                           1 
+    94 SinglePath5[20,4]
+                                   0                           1 
+    95 SinglePath5[4,21]
+                                   0                           1 
+    96 SinglePath5[21,4]
+                                   0                           1 
+    97 SinglePath5[4,22]
+                                   0                           1 
+    98 SinglePath5[22,4]
+                                   0                           1 
+    99 SinglePath5[4,24]
+                                   0                           1 
+   100 SinglePath5[24,4]
+                                   0                           1 
+   101 SinglePath5[4,25]
+                                   0                           1 
+   102 SinglePath5[25,4]
+                                   0                           1 
+   103 SinglePath5[5,21]
+                                   0                           1 
+   104 SinglePath5[21,5]
+                                   0                           1 
+   105 SinglePath5[5,22]
+                                   0                           1 
+   106 SinglePath5[22,5]
+                                   0                           1 
+   107 SinglePath5[5,25]
+                                   0                           1 
+   108 SinglePath5[25,5]
+                                   0                           1 
+   109 SinglePath5[6,12]
+                                   0                           1 
+   110 SinglePath5[12,6]
+                                   0                           1 
+   111 SinglePath5[6,13]
+                                   0                           1 
+   112 SinglePath5[13,6]
+                                   0                           1 
+   113 SinglePath5[6,21]
+                                   0                           1 
+   114 SinglePath5[21,6]
+                                   0                           1 
+   115 SinglePath5[6,22]
+                                   0                           1 
+   116 SinglePath5[22,6]
+                                   0                           1 
+   117 SinglePath5[6,25]
+                                   0                           1 
+   118 SinglePath5[25,6]
+                                   0                           1 
+   119 SinglePath5[7,10]
+                                   0                           1 
+   120 SinglePath5[10,7]
+                                   0                           1 
+   121 SinglePath5[7,11]
+                                   0                           1 
+   122 SinglePath5[11,7]
+                                   0                           1 
+   123 SinglePath5[7,17]
+                                   0                           1 
+   124 SinglePath5[17,7]
+                                   0                           1 
+   125 SinglePath5[7,21]
+                                   0                           1 
+   126 SinglePath5[21,7]
+                                   0                           1 
+   127 SinglePath5[7,22]
+                                   0                           1 
+   128 SinglePath5[22,7]
+                                   0                           1 
+   129 SinglePath5[7,24]
+                                   0                           1 
+   130 SinglePath5[24,7]
+                                   0                           1 
+   131 SinglePath5[7,25]
+                                   0                           1 
+   132 SinglePath5[25,7]
+                                   0                           1 
+   133 SinglePath5[8,12]
+                                   0                           1 
+   134 SinglePath5[12,8]
+                                   0                           1 
+   135 SinglePath5[8,14]
+                                   0                           1 
+   136 SinglePath5[14,8]
+                                   0                           1 
+   137 SinglePath5[8,21]
+                                   0                           1 
+   138 SinglePath5[21,8]
+                                   0                           1 
+   139 SinglePath5[8,22]
+                                   0                           1 
+   140 SinglePath5[22,8]
+                                   0                           1 
+   141 SinglePath5[8,25]
+                                   0                           1 
+   142 SinglePath5[25,8]
+                                   0                           1 
+   143 SinglePath5[9,16]
+                                   0                           1 
+   144 SinglePath5[16,9]
+                                   0                           1 
+   145 SinglePath5[9,18]
+                                   0                           1 
+   146 SinglePath5[18,9]
+                                   0                           1 
+   147 SinglePath5[9,21]
+                                   0                           1 
+   148 SinglePath5[21,9]
+                                   0                           1 
+   149 SinglePath5[9,22]
+                                   0                           1 
+   150 SinglePath5[22,9]
+                                   0                           1 
+   151 SinglePath5[9,25]
+                                   0                           1 
+   152 SinglePath5[25,9]
+                                   0                           1 
+   153 SinglePath5[10,13]
+                                   0                           1 
+   154 SinglePath5[13,10]
+                                   0                           1 
+   155 SinglePath5[10,18]
+                                   0                           1 
+   156 SinglePath5[18,10]
+                                   0                           1 
+   157 SinglePath5[10,21]
+                                   0                           1 
+   158 SinglePath5[21,10]
+                                   0                           1 
+   159 SinglePath5[10,22]
+                                   0                           1 
+   160 SinglePath5[22,10]
+                                   0                           1 
+   161 SinglePath5[10,25]
+                                   0                           1 
+   162 SinglePath5[25,10]
+                                   0                           1 
+   163 SinglePath5[11,21]
+                                   0                           1 
+   164 SinglePath5[21,11]
+                                   0                           1 
+   165 SinglePath5[11,22]
+                                   0                           1 
+   166 SinglePath5[22,11]
+                                   0                           1 
+   167 SinglePath5[11,24]
+                                   0                           1 
+   168 SinglePath5[24,11]
+                                   0                           1 
+   169 SinglePath5[11,25]
+                                   0                           1 
+   170 SinglePath5[25,11]
+                                   0                           1 
+   171 SinglePath5[12,13]
+                                   0                           1 
+   172 SinglePath5[13,12]
+                                   0                           1 
+   173 SinglePath5[12,21]
+                                   0                           1 
+   174 SinglePath5[21,12]
+                                   0                           1 
+   175 SinglePath5[12,22]
+                                   0                           1 
+   176 SinglePath5[22,12]
+                                   0                           1 
+   177 SinglePath5[12,25]
+                                   0                           1 
+   178 SinglePath5[25,12]
+                                   0                           1 
+   179 SinglePath5[13,21]
+                                   0                           1 
+   180 SinglePath5[21,13]
+                                   0                           1 
+   181 SinglePath5[13,22]
+                                   0                           1 
+   182 SinglePath5[22,13]
+                                   0                           1 
+   183 SinglePath5[13,25]
+                                   0                           1 
+   184 SinglePath5[25,13]
+                                   0                           1 
+   185 SinglePath5[14,20]
+                                   1                           1 
+   186 SinglePath5[20,14]
+                                   1                           1 
+   187 SinglePath5[14,21]
+                                   0                           1 
+   188 SinglePath5[21,14]
+                                   0                           1 
+   189 SinglePath5[14,22]
+                                   0                           1 
+   190 SinglePath5[22,14]
+                                   0                           1 
+   191 SinglePath5[14,23]
+                                   1                           1 
+   192 SinglePath5[23,14]
+                                   1                           1 
+   193 SinglePath5[14,24]
+                                   0                           1 
+   194 SinglePath5[24,14]
+                                   0                           1 
+   195 SinglePath5[14,25]
+                                   0                           1 
+   196 SinglePath5[25,14]
+                                   0                           1 
+   197 SinglePath5[15,19]
+                                   0                           1 
+   198 SinglePath5[19,15]
+                                   0                           1 
+   199 SinglePath5[15,20]
+                                   0                           1 
+   200 SinglePath5[20,15]
+                                   0                           1 
+   201 SinglePath5[15,21]
+                                   0                           1 
+   202 SinglePath5[21,15]
+                                   0                           1 
+   203 SinglePath5[15,22]
+                                   0                           1 
+   204 SinglePath5[22,15]
+                                   0                           1 
+   205 SinglePath5[15,24]
+                                   0                           1 
+   206 SinglePath5[24,15]
+                                   0                           1 
+   207 SinglePath5[15,25]
+                                   0                           1 
+   208 SinglePath5[25,15]
+                                   0                           1 
+   209 SinglePath5[16,19]
+                                   0                           1 
+   210 SinglePath5[19,16]
+                                   0                           1 
+   211 SinglePath5[16,21]
+                                   0                           1 
+   212 SinglePath5[21,16]
+                                   0                           1 
+   213 SinglePath5[16,22]
+                                   0                           1 
+   214 SinglePath5[22,16]
+                                   0                           1 
+   215 SinglePath5[16,24]
+                                   0                           1 
+   216 SinglePath5[24,16]
+                                   0                           1 
+   217 SinglePath5[16,25]
+                                   0                           1 
+   218 SinglePath5[25,16]
+                                   0                           1 
+   219 SinglePath5[17,21]
+                                   0                           1 
+   220 SinglePath5[21,17]
+                                   0                           1 
+   221 SinglePath5[17,22]
+                                   0                           1 
+   222 SinglePath5[22,17]
+                                   0                           1 
+   223 SinglePath5[17,24]
+                                   0                           1 
+   224 SinglePath5[24,17]
+                                   0                           1 
+   225 SinglePath5[17,25]
+                                   0                           1 
+   226 SinglePath5[25,17]
+                                   0                           1 
+   227 SinglePath5[18,21]
+                                   0                           1 
+   228 SinglePath5[21,18]
+                                   0                           1 
+   229 SinglePath5[18,22]
+                                   0                           1 
+   230 SinglePath5[22,18]
+                                   0                           1 
+   231 SinglePath5[18,25]
+                                   0                           1 
+   232 SinglePath5[25,18]
+                                   0                           1 
+   233 SinglePath5[19,21]
+                                   0                           1 
+   234 SinglePath5[21,19]
+                                   0                           1 
+   235 SinglePath5[19,22]
+                                   0                           1 
+   236 SinglePath5[22,19]
+                                   0                           1 
+   237 SinglePath5[19,25]
+                                   0                           1 
+   238 SinglePath5[25,19]
+                                   0                           1 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[0,10]      *              1             0             1 
+     2 x[10,0]      *              0             0             1 
+     3 x[0,15]      *              0             0             1 
+     4 x[15,0]      *              1             0             1 
+     5 x[0,20]      *              0             0             1 
+     6 x[20,0]      *              0             0             1 
+     7 x[0,21]      *              0             0             1 
+     8 x[21,0]      *              0             0             1 
+     9 x[0,22]      *              0             0             1 
+    10 x[22,0]      *              0             0             1 
+    11 x[0,24]      *              0             0             1 
+    12 x[24,0]      *              0             0             1 
+    13 x[0,25]      *              0             0             1 
+    14 x[25,0]      *              0             0             1 
+    15 x[1,5]       *              0             0             1 
+    16 x[5,1]       *              0             0             1 
+    17 x[1,7]       *              0             0             1 
+    18 x[7,1]       *              0             0             1 
+    19 x[1,9]       *              0             0             1 
+    20 x[9,1]       *              0             0             1 
+    21 x[1,10]      *              0             0             1 
+    22 x[10,1]      *              1             0             1 
+    23 x[1,15]      *              1             0             1 
+    24 x[15,1]      *              0             0             1 
+    25 x[1,16]      *              0             0             1 
+    26 x[16,1]      *              0             0             1 
+    27 x[1,21]      *              0             0             1 
+    28 x[21,1]      *              0             0             1 
+    29 x[1,22]      *              0             0             1 
+    30 x[22,1]      *              0             0             1 
+    31 x[1,25]      *              0             0             1 
+    32 x[25,1]      *              0             0             1 
+    33 x[2,3]       *              0             0             1 
+    34 x[3,2]       *              0             0             1 
+    35 x[2,11]      *              0             0             1 
+    36 x[11,2]      *              0             0             1 
+    37 x[2,12]      *              0             0             1 
+    38 x[12,2]      *              0             0             1 
+    39 x[2,13]      *              0             0             1 
+    40 x[13,2]      *              0             0             1 
+    41 x[2,21]      *              0             0             1 
+    42 x[21,2]      *              0             0             1 
+    43 x[2,22]      *              0             0             1 
+    44 x[22,2]      *              0             0             1 
+    45 x[2,24]      *              0             0             1 
+    46 x[24,2]      *              0             0             1 
+    47 x[2,25]      *              0             0             1 
+    48 x[25,2]      *              0             0             1 
+    49 x[3,20]      *              0             0             1 
+    50 x[20,3]      *              0             0             1 
+    51 x[3,21]      *              0             0             1 
+    52 x[21,3]      *              0             0             1 
+    53 x[3,22]      *              0             0             1 
+    54 x[22,3]      *              0             0             1 
+    55 x[3,24]      *              0             0             1 
+    56 x[24,3]      *              0             0             1 
+    57 x[3,25]      *              0             0             1 
+    58 x[25,3]      *              0             0             1 
+    59 x[4,10]      *              0             0             1 
+    60 x[10,4]      *              0             0             1 
+    61 x[4,20]      *              0             0             1 
+    62 x[20,4]      *              0             0             1 
+    63 x[4,21]      *              0             0             1 
+    64 x[21,4]      *              0             0             1 
+    65 x[4,22]      *              0             0             1 
+    66 x[22,4]      *              0             0             1 
+    67 x[4,24]      *              0             0             1 
+    68 x[24,4]      *              0             0             1 
+    69 x[4,25]      *              0             0             1 
+    70 x[25,4]      *              0             0             1 
+    71 x[5,21]      *              0             0             1 
+    72 x[21,5]      *              0             0             1 
+    73 x[5,22]      *              0             0             1 
+    74 x[22,5]      *              0             0             1 
+    75 x[5,25]      *              0             0             1 
+    76 x[25,5]      *              0             0             1 
+    77 x[6,12]      *              0             0             1 
+    78 x[12,6]      *              0             0             1 
+    79 x[6,13]      *              0             0             1 
+    80 x[13,6]      *              0             0             1 
+    81 x[6,21]      *              0             0             1 
+    82 x[21,6]      *              0             0             1 
+    83 x[6,22]      *              0             0             1 
+    84 x[22,6]      *              0             0             1 
+    85 x[6,25]      *              0             0             1 
+    86 x[25,6]      *              0             0             1 
+    87 x[7,10]      *              0             0             1 
+    88 x[10,7]      *              0             0             1 
+    89 x[7,11]      *              0             0             1 
+    90 x[11,7]      *              0             0             1 
+    91 x[7,17]      *              0             0             1 
+    92 x[17,7]      *              0             0             1 
+    93 x[7,21]      *              0             0             1 
+    94 x[21,7]      *              0             0             1 
+    95 x[7,22]      *              0             0             1 
+    96 x[22,7]      *              0             0             1 
+    97 x[7,24]      *              0             0             1 
+    98 x[24,7]      *              0             0             1 
+    99 x[7,25]      *              0             0             1 
+   100 x[25,7]      *              0             0             1 
+   101 x[8,12]      *              0             0             1 
+   102 x[12,8]      *              0             0             1 
+   103 x[8,14]      *              0             0             1 
+   104 x[14,8]      *              0             0             1 
+   105 x[8,21]      *              0             0             1 
+   106 x[21,8]      *              0             0             1 
+   107 x[8,22]      *              0             0             1 
+   108 x[22,8]      *              0             0             1 
+   109 x[8,25]      *              0             0             1 
+   110 x[25,8]      *              0             0             1 
+   111 x[9,16]      *              0             0             1 
+   112 x[16,9]      *              0             0             1 
+   113 x[9,18]      *              0             0             1 
+   114 x[18,9]      *              0             0             1 
+   115 x[9,21]      *              0             0             1 
+   116 x[21,9]      *              0             0             1 
+   117 x[9,22]      *              0             0             1 
+   118 x[22,9]      *              0             0             1 
+   119 x[9,25]      *              0             0             1 
+   120 x[25,9]      *              0             0             1 
+   121 x[10,13]     *              0             0             1 
+   122 x[13,10]     *              0             0             1 
+   123 x[10,18]     *              0             0             1 
+   124 x[18,10]     *              0             0             1 
+   125 x[10,21]     *              0             0             1 
+   126 x[21,10]     *              0             0             1 
+   127 x[10,22]     *              0             0             1 
+   128 x[22,10]     *              0             0             1 
+   129 x[10,25]     *              0             0             1 
+   130 x[25,10]     *              0             0             1 
+   131 x[11,21]     *              0             0             1 
+   132 x[21,11]     *              0             0             1 
+   133 x[11,22]     *              0             0             1 
+   134 x[22,11]     *              0             0             1 
+   135 x[11,24]     *              0             0             1 
+   136 x[24,11]     *              0             0             1 
+   137 x[11,25]     *              0             0             1 
+   138 x[25,11]     *              0             0             1 
+   139 x[12,13]     *              0             0             1 
+   140 x[13,12]     *              0             0             1 
+   141 x[12,21]     *              0             0             1 
+   142 x[21,12]     *              0             0             1 
+   143 x[12,22]     *              0             0             1 
+   144 x[22,12]     *              0             0             1 
+   145 x[12,25]     *              0             0             1 
+   146 x[25,12]     *              0             0             1 
+   147 x[13,21]     *              0             0             1 
+   148 x[21,13]     *              0             0             1 
+   149 x[13,22]     *              0             0             1 
+   150 x[22,13]     *              0             0             1 
+   151 x[13,25]     *              0             0             1 
+   152 x[25,13]     *              0             0             1 
+   153 x[14,20]     *              0             0             1 
+   154 x[20,14]     *              1             0             1 
+   155 x[14,21]     *              0             0             1 
+   156 x[21,14]     *              0             0             1 
+   157 x[14,22]     *              0             0             1 
+   158 x[22,14]     *              0             0             1 
+   159 x[14,23]     *              1             0             1 
+   160 x[23,14]     *              0             0             1 
+   161 x[14,24]     *              0             0             1 
+   162 x[24,14]     *              0             0             1 
+   163 x[14,25]     *              0             0             1 
+   164 x[25,14]     *              0             0             1 
+   165 x[15,19]     *              0             0             1 
+   166 x[19,15]     *              0             0             1 
+   167 x[15,20]     *              0             0             1 
+   168 x[20,15]     *              0             0             1 
+   169 x[15,21]     *              0             0             1 
+   170 x[21,15]     *              0             0             1 
+   171 x[15,22]     *              0             0             1 
+   172 x[22,15]     *              0             0             1 
+   173 x[15,24]     *              0             0             1 
+   174 x[24,15]     *              0             0             1 
+   175 x[15,25]     *              0             0             1 
+   176 x[25,15]     *              0             0             1 
+   177 x[16,19]     *              0             0             1 
+   178 x[19,16]     *              0             0             1 
+   179 x[16,21]     *              0             0             1 
+   180 x[21,16]     *              0             0             1 
+   181 x[16,22]     *              0             0             1 
+   182 x[22,16]     *              0             0             1 
+   183 x[16,24]     *              0             0             1 
+   184 x[24,16]     *              0             0             1 
+   185 x[16,25]     *              0             0             1 
+   186 x[25,16]     *              0             0             1 
+   187 x[17,21]     *              0             0             1 
+   188 x[21,17]     *              0             0             1 
+   189 x[17,22]     *              0             0             1 
+   190 x[22,17]     *              0             0             1 
+   191 x[17,24]     *              0             0             1 
+   192 x[24,17]     *              0             0             1 
+   193 x[17,25]     *              0             0             1 
+   194 x[25,17]     *              0             0             1 
+   195 x[18,21]     *              0             0             1 
+   196 x[21,18]     *              0             0             1 
+   197 x[18,22]     *              0             0             1 
+   198 x[22,18]     *              0             0             1 
+   199 x[18,25]     *              0             0             1 
+   200 x[25,18]     *              0             0             1 
+   201 x[19,21]     *              0             0             1 
+   202 x[21,19]     *              0             0             1 
+   203 x[19,22]     *              0             0             1 
+   204 x[22,19]     *              0             0             1 
+   205 x[19,25]     *              0             0             1 
+   206 x[25,19]     *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,32 @@
+Problem:    twoILP
+Rows:       6
+Columns:    2 (2 integer, 0 binary)
+Non-zeros:  10
+Status:     INTEGER OPTIMAL
+Objective:  shPath = 9 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 shPath                      9                             
+     2 c1                         29            25               
+     3 c2                         47            35               
+     4 c3                          7            -0               
+     5 c4                          2             1               
+     6 c5                         30            30               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x1           *              7                             
+     2 x2           *              2                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,127 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.hspedu</groupId>
+    <artifactId>hsptomcat</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>hsptomcat Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <dl4j.version>1.0.0-M2.1</dl4j.version>
+        <nd4j.version>1.0.0-M2.1</nd4j.version>
+        <rl4j.version>1.0.0-M1.1</rl4j.version>
+        <logback.version>1.2.3</logback.version>
+        <javacpp.version>1.5.7</javacpp.version>
+    </properties>
+
+    <repositories>
+        <!-- Maven Central -->
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+        <!-- 可选：国内镜像 -->
+        <repository>
+            <id>aliyun</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+        <repository>
+            <id>huaweicloud</id>
+            <url>https://mirrors.huaweicloud.com/repository/maven/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- 单元测试 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Servlet API -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- RL4J 强化学习 -->
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>rl4j-core</artifactId>
+            <version>${rl4j.version}</version>
+        </dependency>
+
+        <!-- DL4J 神经网络支持 -->
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-nn</artifactId>
+            <version>${dl4j.version}</version>
+        </dependency>
+
+        <!-- ND4J: 数值计算 -->
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-api</artifactId>
+            <version>${nd4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-native-platform</artifactId>
+            <version>${nd4j.version}</version>
+        </dependency>
+        <!-- CUDA支持 -->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>cuda-platform</artifactId>
+            <version>11.6-8.3-1.5.7</version>
+        </dependency>
+        <!-- DataVec: 数据预处理 -->
+        <dependency>
+            <groupId>org.datavec</groupId>
+            <artifactId>datavec-api</artifactId>
+            <version>${dl4j.version}</version>
+        </dependency>
+
+        <!-- 日志 -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
+        <!-- 工具库 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>VNE-GHG</finalName>
+    </build>
+
+</project>

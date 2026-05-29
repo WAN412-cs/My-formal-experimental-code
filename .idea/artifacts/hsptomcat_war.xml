@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hsptomcat:war">
+    <output-path>$PROJECT_DIR$/src/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hsptomcat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hsptomcat.war">
+      <element id="artifact" artifact-name="hsptomcat:war exploded" />
+    </root>
+  </artifact>
+</component>

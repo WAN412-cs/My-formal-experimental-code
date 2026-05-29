@@ -1,0 +1,474 @@
+Problem:    glpsolMILByLin_LYY_ReviseByRitchie_2022_4_30_15
+Rows:       180
+Columns:    62 (62 integer, 62 binary)
+Non-zeros:  525
+Status:     INTEGER EMPTY
+Objective:  slotANDenergyMin = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 slotANDenergyMin
+                                   0                             
+     2 NodeAssignmentCon1[0]
+                                   0             1             = 
+     3 NodeAssignmentCon1[1]
+                                   0             1             = 
+     4 NodeAssignmentCon2[0]
+                                   0                           1 
+     5 NodeAssignmentCon2[1]
+                                   0                           1 
+     6 NodeAssignmentCon2[2]
+                                   0                           1 
+     7 NodeAssignmentCon3[0,0]
+                                   0                          50 
+     8 NodeAssignmentCon3[0,1]
+                                   0                          20 
+     9 NodeAssignmentCon3[0,2]
+                                   0                          40 
+    10 NodeAssignmentCon3[1,0]
+                                   0                          50 
+    11 NodeAssignmentCon3[1,1]
+                                   0                          20 
+    12 NodeAssignmentCon3[1,2]
+                                   0                          40 
+    13 NodeAssignmentCon4[0,0]
+                                   0            -0               
+    14 NodeAssignmentCon4[0,1]
+                                   0            -0               
+    15 NodeAssignmentCon4[0,2]
+                                   0            -0               
+    16 NodeAssignmentCon4[1,0]
+                                   0            -0               
+    17 NodeAssignmentCon4[1,1]
+                                   0            -0               
+    18 NodeAssignmentCon4[1,2]
+                                   0            -0               
+    19 VLinkAssignmentCon1[0,1,0]
+                                   0            -0             = 
+    20 VLinkAssignmentCon1[0,1,1]
+                                   0            -0             = 
+    21 VLinkAssignmentCon1[0,1,2]
+                                   0            -0             = 
+    22 VLinkAssignmentCon2[0,1,0,1,0]
+                                   0                          -0 
+    23 VLinkAssignmentCon2[0,1,0,1,1]
+                                   0                          -0 
+    24 VLinkAssignmentCon2[0,1,0,1,2]
+                                   0                          -0 
+    25 VLinkAssignmentCon2[0,1,0,1,3]
+                                   0                          -0 
+    26 VLinkAssignmentCon2[0,1,0,1,4]
+                                   0                          -0 
+    27 VLinkAssignmentCon2[0,1,0,1,5]
+                                   0                          -0 
+    28 VLinkAssignmentCon2[0,1,0,1,6]
+                                   0                          -0 
+    29 VLinkAssignmentCon2[0,1,0,2,0]
+                                   0                          -0 
+    30 VLinkAssignmentCon2[0,1,0,2,1]
+                                   0                          -0 
+    31 VLinkAssignmentCon2[0,1,0,2,2]
+                                   0                          -0 
+    32 VLinkAssignmentCon2[0,1,0,2,3]
+                                   0                          -0 
+    33 VLinkAssignmentCon2[0,1,0,2,4]
+                                   0                          -0 
+    34 VLinkAssignmentCon2[0,1,0,2,5]
+                                   0                          -0 
+    35 VLinkAssignmentCon2[0,1,0,2,6]
+                                   0                          -0 
+    36 VLinkAssignmentCon3[0,1,0,1]
+                                   0                          -0 
+    37 VLinkAssignmentCon3[0,1,0,2]
+                                   0                          -0 
+    38 ModulationAssignmentCon1[0,1]
+                                   0             1             = 
+    39 ModulationAssignmentCon2[0,1]
+                                   0                          -0 
+    40 SpectrumAssignmentCon1[0,1]
+                                   0             1             = 
+    41 SpectrumAssignmentCon2[0,1,0]
+                                   0            -0               
+    42 SpectrumAssignmentCon2[0,1,1]
+                                   0            -0               
+    43 SpectrumAssignmentCon2[0,1,2]
+                                   0            -0               
+    44 SpectrumAssignmentCon2[0,1,3]
+                                   0            -0               
+    45 SpectrumAssignmentCon2[0,1,4]
+                                   0            -0               
+    46 SpectrumAssignmentCon2[0,1,5]
+                                   0            -0               
+    47 SpectrumAssignmentCon2[0,1,6]
+                                   0            -0               
+    48 SpectrumAssignmentCon3[0,1,0]
+                                   0                          -0 
+    49 SpectrumAssignmentCon3[0,1,1]
+                                   0                          -0 
+    50 SpectrumAssignmentCon3[0,1,2]
+                                   0                          -0 
+    51 SpectrumAssignmentCon3[0,1,3]
+                                   0                          -0 
+    52 SpectrumAssignmentCon3[0,1,4]
+                                   0                          -0 
+    53 SpectrumAssignmentCon3[0,1,5]
+                                   0                          -0 
+    54 SpectrumAssignmentCon3[0,1,6]
+                                   0                          -0 
+    55 SpectrumAssignmentCon4[0,1,0,1,0,1]
+                                   0                           5 
+    56 SpectrumAssignmentCon4[0,1,0,1,0,2]
+                                   0                           5 
+    57 SpectrumAssignmentCon4[0,1,0,1,1,1]
+                                   0                           4 
+    58 SpectrumAssignmentCon4[0,1,0,1,1,2]
+                                   0                           4 
+    59 SpectrumAssignmentCon4[0,1,0,1,2,1]
+                                   0                           3 
+    60 SpectrumAssignmentCon4[0,1,0,1,2,2]
+                                   0                           3 
+    61 SpectrumAssignmentCon4[0,1,0,1,3,1]
+                                   0                           2 
+    62 SpectrumAssignmentCon4[0,1,0,1,3,2]
+                                   0                           2 
+    63 SpectrumAssignmentCon4[0,1,0,1,4,1]
+                                   0                           1 
+    64 SpectrumAssignmentCon4[0,1,0,1,4,2]
+                                   0                           1 
+    65 SpectrumAssignmentCon4[0,1,0,1,5,1]
+                                   0                          -0 
+    66 SpectrumAssignmentCon4[0,1,0,1,5,2]
+                                   0                          -0 
+    67 SpectrumAssignmentCon4[0,1,0,1,6,1]
+                                   0                          -1 
+    68 SpectrumAssignmentCon4[0,1,0,1,6,2]
+                                   0                          -1 
+    69 SpectrumAssignmentCon4[0,1,0,2,0,1]
+                                   0                           5 
+    70 SpectrumAssignmentCon4[0,1,0,2,0,2]
+                                   0                           5 
+    71 SpectrumAssignmentCon4[0,1,0,2,1,1]
+                                   0                           4 
+    72 SpectrumAssignmentCon4[0,1,0,2,1,2]
+                                   0                           4 
+    73 SpectrumAssignmentCon4[0,1,0,2,2,1]
+                                   0                           3 
+    74 SpectrumAssignmentCon4[0,1,0,2,2,2]
+                                   0                           3 
+    75 SpectrumAssignmentCon4[0,1,0,2,3,1]
+                                   0                           2 
+    76 SpectrumAssignmentCon4[0,1,0,2,3,2]
+                                   0                           2 
+    77 SpectrumAssignmentCon4[0,1,0,2,4,1]
+                                   0                           1 
+    78 SpectrumAssignmentCon4[0,1,0,2,4,2]
+                                   0                           1 
+    79 SpectrumAssignmentCon4[0,1,0,2,5,1]
+                                   0                          -0 
+    80 SpectrumAssignmentCon4[0,1,0,2,5,2]
+                                   0                          -0 
+    81 SpectrumAssignmentCon4[0,1,0,2,6,1]
+                                   0                          -1 
+    82 SpectrumAssignmentCon4[0,1,0,2,6,2]
+                                   0                          -1 
+    83 SpectrumAssignmentCon5[0,1,0,1,0,1]
+                                   0                           6 
+    84 SpectrumAssignmentCon5[0,1,0,1,0,2]
+                                   0                           4 
+    85 SpectrumAssignmentCon5[0,1,0,1,1,1]
+                                   0                           6 
+    86 SpectrumAssignmentCon5[0,1,0,1,1,2]
+                                   0                           4 
+    87 SpectrumAssignmentCon5[0,1,0,1,2,1]
+                                   0                           5 
+    88 SpectrumAssignmentCon5[0,1,0,1,2,2]
+                                   0                           4 
+    89 SpectrumAssignmentCon5[0,1,0,1,3,1]
+                                   0                           4 
+    90 SpectrumAssignmentCon5[0,1,0,1,3,2]
+                                   0                           4 
+    91 SpectrumAssignmentCon5[0,1,0,1,4,1]
+                                   0                           3 
+    92 SpectrumAssignmentCon5[0,1,0,1,4,2]
+                                   0                           3 
+    93 SpectrumAssignmentCon5[0,1,0,1,5,1]
+                                   0                           2 
+    94 SpectrumAssignmentCon5[0,1,0,1,5,2]
+                                   0                           2 
+    95 SpectrumAssignmentCon5[0,1,0,1,6,1]
+                                   0                           1 
+    96 SpectrumAssignmentCon5[0,1,0,1,6,2]
+                                   0                           1 
+    97 SpectrumAssignmentCon5[0,1,0,2,0,1]
+                                   0                           6 
+    98 SpectrumAssignmentCon5[0,1,0,2,0,2]
+                                   0                           4 
+    99 SpectrumAssignmentCon5[0,1,0,2,1,1]
+                                   0                           6 
+   100 SpectrumAssignmentCon5[0,1,0,2,1,2]
+                                   0                           4 
+   101 SpectrumAssignmentCon5[0,1,0,2,2,1]
+                                   0                           5 
+   102 SpectrumAssignmentCon5[0,1,0,2,2,2]
+                                   0                           4 
+   103 SpectrumAssignmentCon5[0,1,0,2,3,1]
+                                   0                           4 
+   104 SpectrumAssignmentCon5[0,1,0,2,3,2]
+                                   0                           4 
+   105 SpectrumAssignmentCon5[0,1,0,2,4,1]
+                                   0                           3 
+   106 SpectrumAssignmentCon5[0,1,0,2,4,2]
+                                   0                           3 
+   107 SpectrumAssignmentCon5[0,1,0,2,5,1]
+                                   0                           2 
+   108 SpectrumAssignmentCon5[0,1,0,2,5,2]
+                                   0                           2 
+   109 SpectrumAssignmentCon5[0,1,0,2,6,1]
+                                   0                           1 
+   110 SpectrumAssignmentCon5[0,1,0,2,6,2]
+                                   0                           1 
+   111 SpectrumAssignmentCon6[0,1,0]
+                                   0                           1 
+   112 SpectrumAssignmentCon6[0,1,1]
+                                   0                           1 
+   113 SpectrumAssignmentCon6[0,1,2]
+                                   0                           1 
+   114 SpectrumAssignmentCon6[0,1,3]
+                                   0                           1 
+   115 SpectrumAssignmentCon6[0,1,4]
+                                   0                           1 
+   116 SpectrumAssignmentCon6[0,1,5]
+                                   0                           1 
+   117 SpectrumAssignmentCon6[0,1,6]
+                                   0                           1 
+   118 SpectrumAssignmentCon6[0,2,0]
+                                   0                           1 
+   119 SpectrumAssignmentCon6[0,2,1]
+                                   0                           1 
+   120 SpectrumAssignmentCon6[0,2,2]
+                                   0                           1 
+   121 SpectrumAssignmentCon6[0,2,3]
+                                   0                           1 
+   122 SpectrumAssignmentCon6[0,2,4]
+                                   0                           1 
+   123 SpectrumAssignmentCon6[0,2,5]
+                                   0                           1 
+   124 SpectrumAssignmentCon6[0,2,6]
+                                   0                           1 
+   125 NonlinearCon1[0,1,0,1,0,1]
+                                   0                           1 
+   126 NonlinearCon1[0,1,0,1,0,2]
+                                   0                           1 
+   127 NonlinearCon1[0,1,0,1,1,1]
+                                   0                           1 
+   128 NonlinearCon1[0,1,0,1,1,2]
+                                   0                           1 
+   129 NonlinearCon1[0,1,0,1,2,1]
+                                   0                           1 
+   130 NonlinearCon1[0,1,0,1,2,2]
+                                   0                           1 
+   131 NonlinearCon1[0,1,0,1,3,1]
+                                   0                           1 
+   132 NonlinearCon1[0,1,0,1,3,2]
+                                   0                           1 
+   133 NonlinearCon1[0,1,0,1,4,1]
+                                   0                           1 
+   134 NonlinearCon1[0,1,0,1,4,2]
+                                   0                           1 
+   135 NonlinearCon1[0,1,0,1,5,1]
+                                   0                           1 
+   136 NonlinearCon1[0,1,0,1,5,2]
+                                   0                           1 
+   137 NonlinearCon1[0,1,0,1,6,1]
+                                   0                           1 
+   138 NonlinearCon1[0,1,0,1,6,2]
+                                   0                           1 
+   139 NonlinearCon1[0,1,0,2,0,1]
+                                   0                           1 
+   140 NonlinearCon1[0,1,0,2,0,2]
+                                   0                           1 
+   141 NonlinearCon1[0,1,0,2,1,1]
+                                   0                           1 
+   142 NonlinearCon1[0,1,0,2,1,2]
+                                   0                           1 
+   143 NonlinearCon1[0,1,0,2,2,1]
+                                   0                           1 
+   144 NonlinearCon1[0,1,0,2,2,2]
+                                   0                           1 
+   145 NonlinearCon1[0,1,0,2,3,1]
+                                   0                           1 
+   146 NonlinearCon1[0,1,0,2,3,2]
+                                   0                           1 
+   147 NonlinearCon1[0,1,0,2,4,1]
+                                   0                           1 
+   148 NonlinearCon1[0,1,0,2,4,2]
+                                   0                           1 
+   149 NonlinearCon1[0,1,0,2,5,1]
+                                   0                           1 
+   150 NonlinearCon1[0,1,0,2,5,2]
+                                   0                           1 
+   151 NonlinearCon1[0,1,0,2,6,1]
+                                   0                           1 
+   152 NonlinearCon1[0,1,0,2,6,2]
+                                   0                           1 
+   153 NonlinearCon2[0,1,0,1,0,1]
+                                   0            -0               
+   154 NonlinearCon2[0,1,0,1,0,2]
+                                   0            -0               
+   155 NonlinearCon2[0,1,0,1,1,1]
+                                   0            -0               
+   156 NonlinearCon2[0,1,0,1,1,2]
+                                   0            -0               
+   157 NonlinearCon2[0,1,0,1,2,1]
+                                   0            -0               
+   158 NonlinearCon2[0,1,0,1,2,2]
+                                   0            -0               
+   159 NonlinearCon2[0,1,0,1,3,1]
+                                   0            -0               
+   160 NonlinearCon2[0,1,0,1,3,2]
+                                   0            -0               
+   161 NonlinearCon2[0,1,0,1,4,1]
+                                   0            -0               
+   162 NonlinearCon2[0,1,0,1,4,2]
+                                   0            -0               
+   163 NonlinearCon2[0,1,0,1,5,1]
+                                   0            -0               
+   164 NonlinearCon2[0,1,0,1,5,2]
+                                   0            -0               
+   165 NonlinearCon2[0,1,0,1,6,1]
+                                   0            -0               
+   166 NonlinearCon2[0,1,0,1,6,2]
+                                   0            -0               
+   167 NonlinearCon2[0,1,0,2,0,1]
+                                   0            -0               
+   168 NonlinearCon2[0,1,0,2,0,2]
+                                   0            -0               
+   169 NonlinearCon2[0,1,0,2,1,1]
+                                   0            -0               
+   170 NonlinearCon2[0,1,0,2,1,2]
+                                   0            -0               
+   171 NonlinearCon2[0,1,0,2,2,1]
+                                   0            -0               
+   172 NonlinearCon2[0,1,0,2,2,2]
+                                   0            -0               
+   173 NonlinearCon2[0,1,0,2,3,1]
+                                   0            -0               
+   174 NonlinearCon2[0,1,0,2,3,2]
+                                   0            -0               
+   175 NonlinearCon2[0,1,0,2,4,1]
+                                   0            -0               
+   176 NonlinearCon2[0,1,0,2,4,2]
+                                   0            -0               
+   177 NonlinearCon2[0,1,0,2,5,1]
+                                   0            -0               
+   178 NonlinearCon2[0,1,0,2,5,2]
+                                   0            -0               
+   179 NonlinearCon2[0,1,0,2,6,1]
+                                   0            -0               
+   180 NonlinearCon2[0,1,0,2,6,2]
+                                   0            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 D[0,1,0,1,0] *              0             0             1 
+     2 D[0,1,0,2,0] *              0             0             1 
+     3 D[0,1,0,1,1] *              0             0             1 
+     4 D[0,1,0,2,1] *              0             0             1 
+     5 D[0,1,0,1,2] *              0             0             1 
+     6 D[0,1,0,2,2] *              0             0             1 
+     7 D[0,1,0,1,3] *              0             0             1 
+     8 D[0,1,0,2,3] *              0             0             1 
+     9 D[0,1,0,1,4] *              0             0             1 
+    10 D[0,1,0,2,4] *              0             0             1 
+    11 D[0,1,0,1,5] *              0             0             1 
+    12 D[0,1,0,2,5] *              0             0             1 
+    13 D[0,1,0,1,6] *              0             0             1 
+    14 D[0,1,0,2,6] *              0             0             1 
+    15 F[0,0]       *              0             0             1 
+    16 F[1,0]       *              0             0             1 
+    17 F[0,1]       *              0             0             1 
+    18 F[1,1]       *              0             0             1 
+    19 F[0,2]       *              0             0             1 
+    20 F[1,2]       *              0             0             1 
+    21 S[0,1,0]     *              0             0             1 
+    22 S[0,1,1]     *              0             0             1 
+    23 S[0,1,2]     *              0             0             1 
+    24 S[0,1,3]     *              0             0             1 
+    25 S[0,1,4]     *              0             0             1 
+    26 S[0,1,5]     *              0             0             1 
+    27 S[0,1,6]     *              0             0             1 
+    28 M[0,1,1]     *              0             0             1 
+    29 M[0,1,2]     *              0             0             1 
+    30 V[0,1,0,1,0,1]
+                    *              0             0             1 
+    31 V[0,1,0,1,0,2]
+                    *              0             0             1 
+    32 V[0,1,0,1,1,1]
+                    *              0             0             1 
+    33 V[0,1,0,1,1,2]
+                    *              0             0             1 
+    34 V[0,1,0,1,2,1]
+                    *              0             0             1 
+    35 V[0,1,0,1,2,2]
+                    *              0             0             1 
+    36 V[0,1,0,1,3,1]
+                    *              0             0             1 
+    37 V[0,1,0,1,3,2]
+                    *              0             0             1 
+    38 V[0,1,0,1,4,1]
+                    *              0             0             1 
+    39 V[0,1,0,1,4,2]
+                    *              0             0             1 
+    40 V[0,1,0,1,5,1]
+                    *              0             0             1 
+    41 V[0,1,0,1,5,2]
+                    *              0             0             1 
+    42 V[0,1,0,1,6,1]
+                    *              0             0             1 
+    43 V[0,1,0,1,6,2]
+                    *              0             0             1 
+    44 V[0,1,0,2,0,1]
+                    *              0             0             1 
+    45 V[0,1,0,2,0,2]
+                    *              0             0             1 
+    46 V[0,1,0,2,1,1]
+                    *              0             0             1 
+    47 V[0,1,0,2,1,2]
+                    *              0             0             1 
+    48 V[0,1,0,2,2,1]
+                    *              0             0             1 
+    49 V[0,1,0,2,2,2]
+                    *              0             0             1 
+    50 V[0,1,0,2,3,1]
+                    *              0             0             1 
+    51 V[0,1,0,2,3,2]
+                    *              0             0             1 
+    52 V[0,1,0,2,4,1]
+                    *              0             0             1 
+    53 V[0,1,0,2,4,2]
+                    *              0             0             1 
+    54 V[0,1,0,2,5,1]
+                    *              0             0             1 
+    55 V[0,1,0,2,5,2]
+                    *              0             0             1 
+    56 V[0,1,0,2,6,1]
+                    *              0             0             1 
+    57 V[0,1,0,2,6,2]
+                    *              0             0             1 
+    58 A[0]         *              0             0             1 
+    59 A[1]         *              0             0             1 
+    60 A[2]         *              0             0             1 
+    61 Z[0,1,0,1]   *              0             0             1 
+    62 Z[0,1,0,2]   *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.00e+00 on row 2
+        max.rel.err = 5.00e-01 on row 2
+        SOLUTION IS INFEASIBLE
+
+End of output
